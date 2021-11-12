@@ -66,7 +66,7 @@ ke = '```'
 pathImg = setting.pathImg
 ownerNomor = [`${setting.ownerNumber}`]
 ownerName = setting.ownerName
-rply = '_Made with GuraBot~_'
+rply = '_Dibuat oleh NekoBot_'
 tamnel = fs.readFileSync('./media/gura.jpeg')
 
 
@@ -113,9 +113,9 @@ const arg = chats.slice(command.length + 2, chats.length)
 const isCmd = body.startsWith(prefix)
 
 mess = {
-wait: 'Wait...',
-search: 'Searching...',eror: 'Error',
-success: '✔️ Berhasil ✔️',
+wait: 'Tunggu...',
+search: 'Sedang mencari...',eror: 'Error',
+success: 'Berhasil ✔️',
 error: {
 stick: 'Ulangi bang',
 Iv: 'Link tidak valid'
@@ -389,16 +389,16 @@ case 'menu':
 thu = await gura.getStatus(`${sender.split('@')[0]}@s.whatsapp.net`, MessageType.text)
 menuh = `${ucapanWaktu} - @${sender.split("@")[0]}
 
-_*• Contact Owner*_
+⌦ *Contact Owner*
 _📮Whatsapp : @${owner}_
-_💌Email : finxdev8@gmail.com_
+_🐣Github : Nando35_
 
-_*User Info :*_
+⌦ *User Info :*
 _Name : ${pushname}_
 _Bio : ${thu.status}_
 _Api : https://wa.me/${sender.split("@")[0]}_
 
-_*Bot Info :*_
+⌦ *Bot Info :*
 _Name : ${botName}_
 _Owner : ${ownerName}_
 _Lib : baileys_
@@ -406,9 +406,8 @@ _Prefix : ${prefix}_
 _Runtime : ${runtime(on)}_
 _Language : Javascript_
 
-_🤖Enjoy The Bot Menu_
 
-➤ _*Others*_
+⌦ *Others*
 ${mot} _${prefix}menu_
 ${mot} _${prefix}sc_
 ${mot} _${prefix}runtime_
@@ -416,20 +415,20 @@ ${mot} _${prefix}speed_
 ${mot} _${prefix}owner_
 ${mot} _${prefix}get_
 
-➤ _*Search*_
+⌦ *Search*
 ${mot} _${prefix}lirik_
 ${mot} _${prefix}otaku_
 ${mot} _${prefix}komiku_
 ${mot} _${prefix}chara_
 ${mot} _${prefix}playstore_
 
-➤ _*Tools*_
+⌦ *Tools*
 ${mot} _${prefix}sticker_
 ${mot} _${prefix}swm_
 ${mot} _${prefix}toimg_
 ${mot} _${prefix}tourl_
 
-➤ _*group*_
+⌦ *Group*
 ${mot} _${prefix}antilink <enable/disable>_
 ${mot} _${prefix}welcome <enable/disable>_
 ${mot} _${prefix}add_
@@ -438,21 +437,21 @@ ${mot} _${prefix}promote_
 ${mot} _${prefix}demote_
 ${mot} _${prefix}hidetag_
 
-➤ _*Owner*_
+⌦ *Owner*
 ${mot} _${prefix}bc_
 ${mot} _${prefix}join_
 ${mot} _${prefix}ohidetag_
 ${mot} _> eval_
 ${mot} _$ exec_
 
-➤ _*Download*_
+⌦ *Download*
 ${mot} _${prefix}tiktok query_
 ${mot} _${prefix}play query_
 ${mot} _${prefix}ytmp3 query_
 ${mot} _${prefix}ytmp4 query_
 ${mot} _${prefix}mediafire query_
 
-➤ _*Text Pro Me*_
+⌦ *Text Pro Me*
 ${mot} _${prefix}blackpink text_
 ${mot} _${prefix}neon text_
 ${mot} _${prefix}greenneon text_
